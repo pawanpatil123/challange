@@ -38,7 +38,7 @@ var cul="";
 usersData.forEach(function(elem,idx){
     cul +=`
 
-    <div class="card bg-white w-[25%] h-[90%] px-4 py-6 flex flex-col gap-y-10 justify-center items-center font-gilroy font-medium text-[20px] overflow-hidden shadow-indigo-500  text-center">
+    <div class="card bg-white w-[25%] h-[90%] px-4 py-6 flex flex-col gap-y-3 justify-center items-center font-gilroy font-medium text-4 overflow-hidden shadow-indigo-500  text-center">
         
     <img class="img h-[200px] w-[200px] object-cover rounded-[50%]"    src="${elem.image}" />
     <h1>${elem.username}</h1>
